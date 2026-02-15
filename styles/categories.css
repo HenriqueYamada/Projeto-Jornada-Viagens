@@ -1,0 +1,33 @@
+section#categories{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 0 24px;
+}
+
+.categories__list__cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    text-align: center;
+    margin: auto;
+    padding: 0 24px;
+    max-width: 100%;
+    width: max-content;
+}
+
+.categories__list__cards-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-color: var(--background-secondary-color);
+    border-radius: 16px;
+    padding: 24px 16px;
+}
+
+.categories__list__cards-content{
+    color: var(--background-quaternary-color);
+    font-size: var(--title-h4-size);
+}
