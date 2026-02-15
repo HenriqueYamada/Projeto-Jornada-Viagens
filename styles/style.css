@@ -9,9 +9,13 @@
 @import url(depoiments.css);
 @import url(footer.css);
 
+body{
+    display: flex;
+    flex-direction: column;
+}
+
 main{
     display: flex;
     flex-direction: column;
     gap: 88px;
-    height: 100vh;
 }
