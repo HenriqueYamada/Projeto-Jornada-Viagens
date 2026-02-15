@@ -1,0 +1,17 @@
+@import url(global.css);
+
+@import url(header.css);
+@import url(hero.css);
+@import url(offers.css);
+@import url(categories.css);
+@import url(popular-places.css);
+@import url(payment-conditions.css);
+@import url(depoiments.css);
+@import url(footer.css);
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+    height: 100vh;
+}
