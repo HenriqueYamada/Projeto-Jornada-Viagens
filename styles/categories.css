@@ -31,3 +31,17 @@ section#categories{
     color: var(--background-quaternary-color);
     font-size: var(--title-h4-size);
 }
+
+/*---Media Queries*/
+
+@media screen and (min-width: 768px) {
+    .categories__list__cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .categories__list__cards{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

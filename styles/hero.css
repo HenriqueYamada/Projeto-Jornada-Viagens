@@ -3,6 +3,8 @@ section#hero{
     flex: 0;
     flex-direction: column;
     gap: 88px;
+    margin: auto;
+    max-width: 1440px;
     width: 100%;
 }
 
@@ -38,7 +40,9 @@ section#hero > p{
     section#hero > p{
         font-size: var(--text-body4-size);
         line-height: 150%;
+        margin: auto;
         padding: 0 60px;
+        max-width: 1440px;
     }
 }
 
@@ -51,5 +55,11 @@ section#hero > p{
         font-size: var(--text-body4-size);
         line-height: 150%;
         padding: 0 120px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero__img{
+        border-radius: 0 0 16px 16px;
     }
 }
