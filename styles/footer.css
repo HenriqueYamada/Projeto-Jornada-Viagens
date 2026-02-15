@@ -28,6 +28,18 @@ footer{
     height: 40px;
 }
 
+.footer__content a{
+    color: var(--text-primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: 150ms;
+}
+
+.footer__content a:hover{
+    color: var(--text-secondary-color);
+    text-decoration: underline;
+}
+
 .footer__media{
     gap: 16px;
 }
