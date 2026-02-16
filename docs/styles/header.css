@@ -78,7 +78,7 @@ header nav ul a:hover{
 
 /*---Media-Queries---*/
 
-@media screen and (min-height: 700px) {
+@media screen and (min-height: 600px) {
     header{
         height: 138px;
     }
