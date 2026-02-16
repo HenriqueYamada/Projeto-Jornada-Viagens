@@ -1,9 +1,24 @@
+.populary-destinations__cards{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 64px;
+    padding: 0 24px;
+}
+
+.places{
+    max-width: max-content;
+}
+
 #places__img-osaka,
 #places__img-hiroshima,
 #places__img-kyoto
 {
     background-position: center center;
     background-repeat: no-repeat;
+    height: 300px;
+    max-width: 100%;
+    width: 312px;
 }
 
 #places__img-osaka{
@@ -16,4 +31,88 @@
 
 #places__img-kyoto{
     background-image: url(../images/Mobile/Blogpost/Kyoto.png);
+}
+
+/*---Media Queries---*/
+
+@media screen and (min-width: 360px) {
+    #places__img-osaka,
+    #places__img-hiroshima,
+    #places__img-kyoto
+    {
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 300px;
+        max-width: 100%;
+        width: 312px;
+    }
+
+    #places__img-osaka{
+        background-image: url(../images/Desktop/Blogpost/Osaka.png);
+    }
+
+    #places__img-hiroshima{
+        background-image: url(../images/Desktop/Blogpost/Hiroshima.png);
+    }
+
+    #places__img-kyoto{
+        background-image: url(../images/Desktop/Blogpost/Kyoto.png);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .populary-destinations__cards{
+        padding: 0 60px;
+    }
+
+    #places__img-osaka,
+    #places__img-hiroshima,
+    #places__img-kyoto
+    {
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 300px;
+        max-width: 100%;
+        width: 648px;
+    }
+
+    #places__img-osaka{
+        background-image: url(../images/Tablet/Blogpost/Osaka-.png);
+    }
+
+    #places__img-hiroshima{
+        background-image: url(../images/Tablet/Blogpost/Hiroshima-.png);
+    }
+
+    #places__img-kyoto{
+        background-image: url(../images/Tablet/Blogpost/Kyoto-.png);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .populary-destinations__cards{
+        flex-direction: row;
+        justify-content: center;
+        padding: 120px;
+    }
+
+    #places__img-osaka,
+    #places__img-hiroshima,
+    #places__img-kyoto
+    {
+        max-width: 100%;
+        width: 384px;
+    }
+
+    #places__img-osaka{
+        background-image: url(../images/Desktop_Large/Blogpost/Osaka.png);
+    }
+
+    #places__img-hiroshima{
+        background-image: url(../images/Desktop_Large/Blogpost/Hiroshima.png);
+    }
+
+    #places__img-kyoto{
+        background-image: url(../images/Desktop_Large/Blogpost/Kyoto.png);
+    }
 }
