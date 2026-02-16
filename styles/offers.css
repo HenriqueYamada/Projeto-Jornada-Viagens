@@ -181,7 +181,7 @@ section#offers h2{
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
     .offers__list{
         grid-template-columns: 100% 100%; 
     }
