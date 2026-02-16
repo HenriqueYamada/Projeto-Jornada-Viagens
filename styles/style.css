@@ -13,6 +13,9 @@
 @import url(blog-article-tokyo.css);
 @import url(blog-popular-destinations.css);
 
+@import url(packs-hero.css);
+@import url(packs-footer.css);
+
 @import url(contacts-hero.css);
 @import url(contacts-form.css);
 @import url(contacts-footer.css);
