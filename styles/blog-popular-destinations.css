@@ -1,0 +1,19 @@
+#places__img-osaka,
+#places__img-hiroshima,
+#places__img-kyoto
+{
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#places__img-osaka{
+    background-image: url(../images/Mobile/Blogpost/Osaka.png);
+}
+
+#places__img-hiroshima{
+    background-image: url(../images/Mobile/Blogpost/Hiroshima.png);
+}
+
+#places__img-kyoto{
+    background-image: url(../images/Mobile/Blogpost/Kyoto.png);
+}
