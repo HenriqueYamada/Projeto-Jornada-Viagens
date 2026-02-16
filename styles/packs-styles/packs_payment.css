@@ -1,0 +1,22 @@
+.payment_img1-img2{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.payment_img1-img2 img{
+    border-radius: 16px;
+    width: 100%;
+}
+
+.payment-conditions__container-text h3{
+    font-size: var(--title-h3-size);
+}
+
+.payment-conditions__container-text h4{
+    font-size: var(--title-h5-size);
+}
+
+.payment-conditions__container-text p{
+    font-size: var(--text-body1-size);
+}

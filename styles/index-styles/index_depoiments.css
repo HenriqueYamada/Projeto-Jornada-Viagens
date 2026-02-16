@@ -1,5 +1,3 @@
-
-
 .depoiments__container{
     display: flex;
     flex-direction: column;
@@ -32,15 +30,4 @@
 .avaliation{
     display: flex;
     flex-direction: column;
-}
-
-/*---Media Queries---*/
-
-@media screen and (min-width: 1440px) {
-    .depoiments-cards{
-        display: flex;
-        gap: 24px;
-        margin: auto;
-        max-width: 1200px;
-    }
 }

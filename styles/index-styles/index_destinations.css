@@ -35,12 +35,12 @@ section#populary-destinations{
 }
 
 #places__img-tokyo{
-    background-image: url(../images/Mobile/Homepage/Tokyo.jpg);
+    background-image: url(../../images/Mobile/Homepage/Tokyo.jpg);
     background-repeat: no-repeat;
 }
 
 #places__img-osaka{
-    background-image: url(../images/Mobile/Homepage/Osaka.jpg);
+    background-image: url(../../images/Mobile/Homepage/Osaka.jpg);
     background-repeat: no-repeat;
 }
 
@@ -53,33 +53,4 @@ section#populary-destinations{
     font-size: var(--text-body2-size);
     font-family: var(--text-font);
     max-width: 800px;
-}
-
-/*---Midia Queries---*/
-
-@media screen and (min-width: 768px) {
-    .section#populary-destinations{
-        padding: 0 40px;
-    }
-
-    .places__img{
-        height: 452px;
-        width: 648px;
-}
-
-    #places__img-tokyo{
-        background-image: url(../images/Tablet/Homepage/Tokyo\ \(5\).jpg);
-        background-repeat: no-repeat;
-    }
-
-    #places__img-osaka{
-        background-image: url(../images/Tablet/Homepage/Osaka\ \(5\).jpg);
-        background-repeat: no-repeat;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    .populary-destinations__cards{
-        flex-direction: row;
-    }
 }

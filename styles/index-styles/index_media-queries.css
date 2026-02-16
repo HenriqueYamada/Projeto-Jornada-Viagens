@@ -1,0 +1,223 @@
+/*---Media Queries - 360px---*/
+
+@media screen and (min-width: 360px) {
+    /*---HERO---*/
+
+    .hero__img{
+        background-image: url(../../images/Tablet/Homepage/Banner\ tablet.png);
+    }
+
+    /*---OFFERS---*/
+
+    .offers__list__cards-content__titles h3{
+        font-size: var(--subtitle-size);
+    }
+
+    .offers__list__cards-content__titles span{
+        color: var(--text-primary-color);
+        font-size: var(--text-body2-size);
+    }
+
+    .offers__list__cards-content__titles h3{
+        color: var(--text-primary-color);
+        font-size: var(--title-h4-size);
+        font-weight: var(--title-weight);
+    }
+
+    .offers__list__cards-content_price{
+        color: var(--text-primary-color);
+        font-size: var(--title-h4-size);
+        font-weight: var(--title-weight);
+    }
+
+    /*---Categories---*/
+
+    .categories__list__cards-content{
+        font-size: var(--title-h5-size);
+    }
+
+    /*---DESTINATIONS---*/
+
+    /*---PAYMENT---*/
+
+    .homepage_img1-img2{
+        background-image: url(../../images/Mobile/Homepage/Montagem\ mobile.png);
+        background-repeat: no-repeat;   
+        height: 460px;
+    }
+
+    .homepage_img1-img2 img{
+        display: none;
+    }
+
+    .payment-conditions__container-text h3{
+        font-size: var(--title-h4-size);
+    }
+
+    /*---DEPOIMENTS---*/
+}
+
+/*---Media Queries - 768px---*/
+
+@media screen and (min-width: 768px) {
+    /*---HERO---*/
+
+    .hero__img{
+        background-image: url(../../images/Desktop/Homepage/Banner.png);
+    }
+
+    section#hero > p{
+        font-size: var(--text-body4-size);
+        line-height: 150%;
+        margin: auto;
+        padding: 0 60px;
+        max-width: 1440px;
+    }
+    
+    /*---OFFERS---*/
+
+    section#offers{
+        padding: 0 60px;
+    }
+
+    .offers__list{
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 20px;
+    }
+
+    #offers__japan-card{
+        background-image: url(../../images/Tablet/Homepage/Japão.png);
+    }
+
+    #offers__san-andreas-card{
+        background-image: url(../../images/Tablet/Homepage/San\ Andreas.png);
+    }
+
+    #offers__paraiba-card{
+        background-image: url(../../images/Tablet/Homepage/Paraíba.png);
+    }
+
+    #offers__manaus-card{
+        background-image: url(../../images/Tablet/Homepage/Manaus.png);
+    }
+
+    /*---Categories---*/
+
+    .categories__list__cards{
+        grid-template-columns: repeat(2, 1fr);
+        font-size: var(--title-h4-size);
+    }
+
+    .categories__list__cards-content{
+        font-size: var(--title-h4-size);
+    }
+
+    /*---DESTINATIONS---*/
+
+    .section#populary-destinations{
+        padding: 0 40px;
+    }
+
+    .places__img{
+        height: 452px;
+        width: 648px;
+    }
+
+    #places__img-tokyo{
+        background-image: url(../../images/Tablet/Homepage/Tokyo\ \(5\).jpg);
+        background-repeat: no-repeat;
+    }
+
+    #places__img-osaka{
+        background-image: url(../../images/Tablet/Homepage/Osaka\ \(5\).jpg);
+        background-repeat: no-repeat;
+    }
+
+    /*---PAYMENT---*/
+
+    .homepage_img1-img2{
+        background-image: url(../../images/Tablet/Homepage/Frame\ 5\ \(5\).png);
+        height: 460px;
+        width: 648px;
+    }
+
+    /*---DEPOIMENTS---*/
+}
+
+
+/*---Media Queries - 1440px---*/
+
+
+@media screen and (min-width: 1440px) {
+    /*---HERO---*/
+    
+    .hero__img{
+        background-image: url(../../images/Desktop_Large/Homepage/Banner.png);
+        border-radius: 0 0 16px 16px;
+    }
+
+    section#hero > p{
+        font-size: var(--text-body4-size);
+        line-height: 150%;
+    }
+
+    /*---OFFERS---*/
+
+    .offers__list{
+        grid-template-columns: 100% 100%; 
+    }
+
+    .offers__list__cards{
+        width: 100%;
+    }
+
+    #offers__japan-card{
+        background-image: url(../../images/Desktop/Homepage/Japão.png);
+    }
+
+    #offers__san-andreas-card{
+        background-image: url(../../images/Desktop/Homepage/San\ Andreas.png);
+    }
+
+    #offers__paraiba-card{
+        background-image: url(../../images/Desktop/Homepage/Paraíba.png);
+    }
+
+    #offers__manaus-card{
+        background-image: url(../../images/Desktop/Homepage/Manaus.png);
+    }
+
+    /*---Categories---*/
+
+    .categories__list__cards{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    /*---DESTINATIONS---*/
+
+    .populary-destinations__cards{
+        flex-direction: row;
+    }
+
+    /*---PAYMENT---*/
+
+    .payment-conditions__content{
+        flex-direction: row;
+    }
+
+    .homepage_img1-img2{
+        background-image: url(../../images/Desktop_Large/Homepage/Montagem.png);
+        height: 460px;
+        width: 790px;
+    }
+
+    /*---DEPOIMENTS---*/
+
+    .depoiments-cards{
+        display: flex;
+        gap: 24px;
+        margin: auto;
+        max-width: 1200px;
+    }
+}

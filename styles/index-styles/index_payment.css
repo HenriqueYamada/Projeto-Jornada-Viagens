@@ -33,7 +33,7 @@ section#payment-conditions{
     gap: 24px;
 }
 
-.img1-img2{
+.homepage_img1-img2{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,48 +43,11 @@ section#payment-conditions{
     width: 312px;
 }
 
-.img1-img2 img{
+.homepage_img1-img2 img{
     display: block;
     border-radius: 16px;
 }
 
-.img1-img2 img:nth-child(3){
+.homepage_img1-img2 img:nth-child(3){
     width: 100%;
-}
-
-/*---Media Queries---*/
-
-@media screen and (min-width: 400px) {
-    .img1-img2{
-        background-image: url(../images/Mobile/Homepage/Montagem\ mobile.png);
-        height: 460px;
-    }
-
-    .img1-img2 img{
-        display: none;
-    }
-
-    .payment-conditions__container-text h3{
-        font-size: var(--title-h4-size);
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .img1-img2{
-        background-image: url(../images/Tablet/Homepage/Frame\ 5\ \(5\).png);
-        height: 460px;
-        width: 648px;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    .payment-conditions__content{
-        flex-direction: row;
-    }
-
-    .img1-img2{
-        background-image: url(../images/Desktop/Homepage/Frame\ 5\ \(3\).png);
-        height: 460px;
-        width: 790px;
-    }
 }

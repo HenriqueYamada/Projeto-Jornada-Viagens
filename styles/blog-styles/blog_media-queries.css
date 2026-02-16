@@ -1,0 +1,214 @@
+/*---Media queries - 360px---*/
+
+@media screen and (min-width: 360px) {
+    /*---HERO---*/
+
+    #hero__img1{
+        background-image: url(../../images/Tablet/Blogpost/Banner\ Blog.png);
+    }    
+
+    #hero__img2 h1{
+        font-size: var(--title-h1-size);
+    }
+
+    #hero__img2 p{
+        font-size: var(--text-body2-size);
+        line-height: 32px;
+    }
+
+    /*---ARTICLE---*/
+
+    #arriving-photo__tokyo{
+        background-image: url(../../images/Tablet/Blogpost/Tokyo-1.png);
+        height: 360px;
+        width: 312px;
+    }
+
+    picture small{
+        text-align: left;
+    }
+
+    #accomodation-photo__tokyo{
+        background-image: url(../../images/Tablet/Blogpost/Tokyo\ 2.png);
+        width: 100%;
+    }
+
+    /*---DESTINATIONS---*/
+
+    #blog__places__img-osaka,
+    #blog__places__img-hiroshima,
+    #blog__places__img-kyoto
+    {
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 300px;
+        max-width: 100%;
+        width: 312px;
+    }
+
+    #blog__places__img-osaka{
+        background-image: url(../../images/Desktop/Blogpost/Osaka.png);
+    }
+
+    #blog__places__img-hiroshima{
+        background-image: url(../../images/Desktop/Blogpost/Hiroshima.png);
+    }
+
+    #blog__places__img-kyoto{
+        background-image: url(../../images/Desktop/Blogpost/Kyoto.png);
+    }
+}
+
+/*---Media queries - 768px---*/
+
+@media screen and (min-width: 768px) {
+    /*---HERO---*/
+
+    #hero__img2{
+        background-image: url(../../images/Desktop/Blogpost/Banner\ Blog.png);
+        height: 620px;
+    }  
+
+    .hero__img2__position{
+        margin: auto;
+        width: 580px;
+    }
+
+    #hero__img2 p{
+        font-size: var(--text-body4-size);
+        line-height: 150%;
+    }
+
+    /*---ARTICLE---*/
+
+    section#tokyo{
+        padding: 0 60px;
+    }
+
+    #arriving-article-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 24px;
+    }
+
+    #arriving-article-text{
+        width: calc(100% - 336px);
+    }
+
+    #arriving-photo__tokyo{
+        background-image: url(../../images/Desktop/Blogpost/Tokyo1.png);
+        height: 360px;
+        width: 312px;
+    }
+
+    #accomodation-photo__tokyo{
+        background-image: url(../../images/Desktop/Blogpost/Tokyo2.png);
+        width: 100%;
+    }
+
+    /*---Destinations---*/
+
+    .populary-destinations__cards{
+        padding: 0 60px;
+    }
+
+    #blog__places__img-osaka,
+    #blog__places__img-hiroshima,
+    #blog__places__img-kyoto
+    {
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 300px;
+        max-width: 100%;
+        width: 648px;
+    }
+
+    #blog__places__img-osaka{
+        background-image: url(../../images/Tablet/Blogpost/Osaka-.png);
+    }
+
+    #blog__places__img-hiroshima{
+        background-image: url(../../images/Tablet/Blogpost/Hiroshima-.png);
+    }
+
+    #blog__places__img-kyoto{
+        background-image: url(../../images/Tablet/Blogpost/Kyoto-.png);
+    }
+}
+
+/*---Media queries - 1440px---*/
+
+@media screen and (min-width: 1440px) {
+    /*---HERO---*/
+
+    #hero__img2{
+        background-image: url(../../images/Desktop_Large/Blogpost/Banner.png);
+        justify-content: center;
+    }  
+
+    .hero__img2__position{
+        margin: 0 120px;
+        width: 580px;
+    }
+
+    #hero__img2 p{
+        font-size: var(--text-body4-size);
+        line-height: 150%;
+    }
+
+    /*---ARTICLE---*/
+
+    section#tokyo{
+        padding: 0 120px;
+    }
+
+    article{
+        margin: auto;
+        max-width: 1200px;
+    }
+
+    #arriving-article-text{
+        width: calc(100% - 612px);
+    }
+
+    #arriving-photo__tokyo{
+        background-image: url(../../images/Desktop_Large/Blogpost/Tokyo1.png);
+        height: 360px;
+        width: 588px;
+    }
+
+    #accomodation-photo__tokyo{
+        background-image: url(../../images/Desktop_Large/Blogpost/Tokyo2.png);
+        max-width: 1440px;
+        width: 100%;
+    }
+
+    /*---Destinations---*/
+
+    .populary-destinations__cards{
+        flex-direction: row;
+        justify-content: center;
+        padding: 0 120px;
+    }
+
+    #blog__places__img-osaka,
+    #blog__places__img-hiroshima,
+    #blog__places__img-kyoto
+    {
+        max-width: 100%;
+        width: 384px;
+    }
+
+    #blog__places__img-osaka{
+        background-image: url(../../images/Desktop_Large/Blogpost/Osaka.png);
+    }
+
+    #blog__places__img-hiroshima{
+        background-image: url(../../images/Desktop_Large/Blogpost/Hiroshima.png);
+    }
+
+    #blog__places__img-kyoto{
+        background-image: url(../../images/Desktop_Large/Blogpost/Kyoto.png);
+    }
+}

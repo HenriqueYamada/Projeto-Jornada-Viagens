@@ -1,0 +1,34 @@
+.populary-destinations__cards{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 64px;
+    padding: 0 24px;
+}
+
+.places{
+    max-width: max-content;
+}
+
+#blog__places__img-osaka,
+#blog__places__img-hiroshima,
+#blog__places__img-kyoto
+{
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 300px;
+    max-width: 100%;
+    width: 312px;
+}
+
+#blog__places__img-osaka{
+    background-image: url(../../images/Mobile/Blogpost/Osaka.png);
+}
+
+#blog__places__img-hiroshima{
+    background-image: url(../../images/Mobile/Blogpost/Hiroshima.png);
+}
+
+#blog__places__img-kyoto{
+    background-image: url(../../images/Mobile/Blogpost/Kyoto.png);
+}

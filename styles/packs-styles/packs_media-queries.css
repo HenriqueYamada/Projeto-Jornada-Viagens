@@ -1,0 +1,125 @@
+/*---Media Queries - 360px---*/
+
+@media screen and (min-width: 360px) {
+    /*---HERO---*/
+
+    #hero__img3{
+        background-image: url(../../images/Tablet/Destino/Banner\ Destino.png);
+    }    
+
+    #hero__img3 h1{
+        font-size: var(--title-h1-size);
+    }
+
+    #hero__img3 p{
+        font-size: var(--text-body2-size);
+        line-height: 32px;
+    }
+
+    /*---Payment---*/
+
+    #packs-montage{
+        background-image: url(../../images/Mobile/Destino/Montagem.png);
+        margin: auto;
+        height: 460px;
+        width: 312px;
+    }
+
+    .payment_img1-img2 img{
+        display: none;
+    }
+
+    .payment-conditions__container-text h3{
+        font-size: var(--title-h2-size);
+    }
+
+    .payment-conditions__container-text h4{
+        font-size: var(--title-h4-size);
+    }
+
+    .payment-conditions__container-text p{
+        font-size: var(--text-body2-size);
+        list-style: 32px;
+    }
+
+    /*---FOOTER---*/
+
+    #packs-pre-footer{
+        background-image: url(../../images/Tablet/Destino/Imagem\ pré\ rodapé.png);
+    }
+}
+
+/*---Media Queries - 768px---*/
+
+@media screen and (min-width: 768px) {
+    /*---HERO---*/
+
+    #hero__img3{
+        background-image: url(../../images/Desktop/Destino/Banner\ Destinos\ Japão.png);
+        padding-left: 60px;
+        height: 620px;
+    }  
+
+    .hero__img3__position{
+        width: 580px;
+    }
+
+    #hero__img3 p{
+        font-size: var(--text-body4-size);
+        line-height: 150%;
+    }
+
+    /*---Payment---*/
+
+    #packs-montage{
+        background-image: url(../../images/Desktop/Destino/Montagem.png);
+        margin: auto;
+        height: 460px;
+        width: 648px;
+    }
+
+    /*---FOOTER---*/
+
+    #packs-pre-footer{
+        background-image: url(../../images/Desktop/Destino/Imagem\ pré\ rodapé.png);
+    }
+}
+
+/*---Media Queries - 1440px---*/
+
+@media screen and (min-width: 1440px) {
+    /*---HERO---*/
+
+    #hero__img3{
+        background-image: url(../../images/Desktop_Large/Destino/Banner.png);
+    }  
+
+    .hero__img3__position{
+        margin: 0 120px;
+        width: 580px;
+    }
+
+    #hero__img3 p{
+        font-size: var(--text-body4-size);
+        line-height: 150%;
+    }
+
+    /*---Payment---*/
+
+    #packs-montage{
+        background-image: url(../../images/Desktop/Destino/Montagem.png);
+        margin: auto;
+        height: 460px;
+        width: 790px;
+    }
+
+    .payment-conditions__container-text{
+        width: calc(100% - 800px);
+    }
+
+    /*---FOOTER---*/
+
+    #packs-pre-footer{
+        background-image: url(../../images/Desktop_Large/Destino/Imagem\ pré\ rodapé.png);
+    }
+}

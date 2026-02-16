@@ -1,0 +1,26 @@
+section#hero{
+    display: flex;
+    flex: 0;
+    flex-direction: column;
+    gap: 88px;
+    margin: auto;
+    padding: 0;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.hero__img{
+    height: 400px;
+    width: 100%;
+    background-image: url(../../images/Mobile/Homepage/Banner\ homepage.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#hero > p{
+    font-size: var(--text-body2-size);
+    text-align: center;
+    line-height: 32px;
+    padding: 0 24px;
+}
