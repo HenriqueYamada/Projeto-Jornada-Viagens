@@ -1,25 +1,31 @@
 @import url(global.css);
 
 @import url(header.css);
-@import url(hero.css);
-@import url(offers.css);
-@import url(categories.css);
-@import url(popular-destinations.css);
-@import url(payment-conditions.css);
-@import url(depoiments.css);
 @import url(footer.css);
 
-@import url(blog-hero.css);
-@import url(blog-article-tokyo.css);
-@import url(blog-popular-destinations.css);
+@import url(index-styles/index_hero.css);
+@import url(index-styles/index_offers.css);
+@import url(index-styles/index_categories.css);
+@import url(index-styles/index_destinations.css);
+@import url(index-styles/index_payment.css);
+@import url(index-styles/index_depoiments.css);
+@import url(index-styles/index_media-queries.css);
 
-@import url(packs-hero.css);
-@import url(packs-destinies.css);
-@import url(packs-footer.css);
+@import url(blog-styles/blog_hero.css);
+@import url(blog-styles/blog_article.css);
+@import url(blog-styles/blog_destinations.css);
+@import url(blog-styles/blog_media-queries.css);
 
-@import url(contacts-hero.css);
-@import url(contacts-form.css);
-@import url(contacts-footer.css);
+@import url(packs-styles/packs_hero.css);
+@import url(packs-styles/packs_payment.css);
+@import url(packs-styles/packs_footer.css);
+@import url(packs-styles/packs_media-queries.css);
+
+@import url(contacts-style/contacts_hero.css);
+@import url(contacts-style/contacts_form.css);
+@import url(contacts-style/contacts_footer.css);
+@import url(contacts-style/contacts_media-queries.css);
+
 
 body{
     display: flex;

@@ -1,0 +1,82 @@
+/*---Media Queries - 360px---*/
+
+@media screen and (min-width: 360px) {
+    #hero__img4{
+        background-image: url(../../images/Tablet/Contato/Banner\ Contato.png);
+    }    
+
+    #hero__img4 h1{
+        font-size: var(--title-h1-size);
+    }
+
+    #hero__img4 p{
+        font-size: var(--text-body2-size);
+        line-height: 32px;
+    }
+
+    /*---Form---*/
+
+    /*---Footer---*/
+
+    #contact-pre-footer{
+        background-image: url(../../images/Tablet/Contato/Imagem\ pré\ rodapé.png);
+        height: 600px;
+    }
+}
+
+/*---Media Queries - 768px---*/
+
+@media screen and (min-width: 768px) {
+    .title-adjusts{
+        align-items: start;
+    }
+
+    #hero__img4{
+        background-image: url(../../images/Desktop/Contato/Banner\ Contato.png);
+        height: 620px;
+    }  
+
+    .hero__img4__position{
+        width: 580px;
+    }
+
+    #hero__img4 p{
+        font-size: var(--text-body4-size);
+        line-height: 150%;
+    }
+
+    /*---Form---*/
+
+    /*---Footer---*/
+
+    #contact-pre-footer{
+        background-image: url(../../images/Desktop/Contato/Imagem\ pré\ rodapé\ \(6\).png);
+    }
+}
+
+/*---Media Queries - 1440px---*/
+
+@media screen and (min-width: 1440px) {
+    #hero__img4{
+        background-image: url(../../images/Desktop_Large/Contato/Banner\ contato.png);
+        justify-content: center;
+    }  
+
+    .hero__img4__position{
+        margin: 0 120px;
+        width: 580px;
+    }
+
+    #hero__img4 p{
+        font-size: var(--text-body4-size);
+        line-height: 150%;
+    }
+
+    /*---Form---*/
+
+    /*---Footer---*/
+
+    #contact-pre-footer{
+        background-image: url(../../images/Desktop_Large/Contato/Imagem\ pré\ rodapé.png);
+    }
+}

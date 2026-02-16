@@ -1,0 +1,60 @@
+section#tokyo{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.article-container,
+.article-text
+{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.article-text h3{
+    font-size: var(--title-h4-size);
+}
+
+.article-text p{
+    font-size: var(--text-body1-size);
+    line-height: 32px;
+}
+
+picture{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    width: 100%;
+}
+
+#arriving-photo__tokyo,
+#accomodation-photo__tokyo
+{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    margin: auto;
+}
+
+#arriving-photo__tokyo{
+    background-image: url(../../images/Mobile/Blogpost/Tokyo1.png);
+    height: 312px;
+    max-width: 100%;
+    width: 360px;
+}
+
+#accomodation-photo__tokyo{
+    background-image: url(../../images/Mobile/Blogpost/Tokyo2.png);
+    height: 312px;
+    max-width: 100%;
+    width: 300px;
+}
