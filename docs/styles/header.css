@@ -5,13 +5,16 @@ header{
     position: fixed;
     top: 0;
     padding: 18px 24px;
-    height: 100px;
+    height: 80px;
     width: 100%;
     background-color: var(--background-tertiary-color);
     z-index: 10;
 }
 
 header img{
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
     cursor: pointer;
     transition: 200ms;
 }
@@ -21,8 +24,8 @@ header img:hover{
 }
 
 header a img:first-child{
-    height: 64px;
-    width: 68px;
+    height: 32px;
+    width: 34px;
 }
 
 header a img:last-child{
@@ -34,7 +37,7 @@ header input[type="checkbox"], #idOverlay{
 }
 
 header label img{
-    width: 36px;
+    width: 24px;
 }
 
 header nav{
@@ -78,6 +81,15 @@ header nav ul a:hover{
 @media screen and (min-height: 700px) {
     header{
         height: 138px;
+    }
+
+    header a img:first-child{
+        height: 64px;
+        width: 68px;
+    }
+        
+    header label img{
+        width: 24px;
     }
 }
 
