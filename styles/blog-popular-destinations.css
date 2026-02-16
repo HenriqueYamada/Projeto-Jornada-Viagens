@@ -93,7 +93,7 @@
     .populary-destinations__cards{
         flex-direction: row;
         justify-content: center;
-        padding: 120px;
+        padding: 0 120px;
     }
 
     #places__img-osaka,
