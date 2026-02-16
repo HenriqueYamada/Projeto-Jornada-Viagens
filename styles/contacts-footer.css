@@ -1,3 +1,26 @@
 #contact-pre-footer{
     background-image: url(../images/Mobile/Contato/Imagem\ pré\ rodapé.png);
+    height: 400px;
+    width: 100%;
+}
+
+/*---Media Queries---*/
+
+@media screen and (min-width: 360px) {
+    #contact-pre-footer{
+        background-image: url(../images/Tablet/Contato/Imagem\ pré\ rodapé.png);
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #contact-pre-footer{
+        background-image: url(../images/Desktop/Contato/Imagem\ pré\ rodapé\ \(6\).png);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #contact-pre-footer{
+        background-image: url(../images/Desktop_Large/Contato/Imagem\ pré\ rodapé.png);
+    }
 }
