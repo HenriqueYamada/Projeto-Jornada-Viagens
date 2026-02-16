@@ -1,0 +1,41 @@
+
+
+.depoiments__container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 32px;
+}
+
+.depoiments__container p{
+    font-size: var(--text-body1-size);
+    line-height: 28px;
+}
+
+.depoiments__content{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.depoiments__content p{
+    display: block;
+    margin: auto;
+    font-size: var(--text-body2-size);
+    font-weight: bold;
+}
+
+.avaliation img{
+    width: 100%;
+}
+
+/*---Media Queries---*/
+
+@media screen and (min-width: 1440px) {
+    .depoiments-cards{
+        display: flex;
+        gap: 24px;
+        margin: auto;
+        max-width: 1200px;
+    }
+}

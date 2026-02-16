@@ -23,3 +23,11 @@ main{
 section{
     padding: 0 24px;
 }
+
+h1,
+h2,
+h3,
+h4,
+p{
+    color: var(--background-quaternary-color);
+}

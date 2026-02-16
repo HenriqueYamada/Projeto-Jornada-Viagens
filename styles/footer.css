@@ -30,6 +30,10 @@ footer{
     width: max-content;
 }
 
+footer p{
+    color: var(--text-primary-color);
+}
+
 .footer__content a{
     color: var(--text-primary-color);
     text-decoration: none;
