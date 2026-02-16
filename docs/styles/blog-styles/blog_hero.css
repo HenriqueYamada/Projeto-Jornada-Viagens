@@ -1,3 +1,8 @@
+section.hero{
+    margin-top: 138px;
+    padding: 0;
+}
+
 #hero__img2{
     display: flex;
     flex-direction: column;
@@ -27,10 +32,10 @@
 }
 
 #hero__img2 h1{
-    font-size: var(--title-h2-size);
+    font-size: var(--title-h3-size);
 }
 
 #hero__img2 p{
     font-size: var(--text-body1-size);
-    line-height: 32px;
+    line-height: 24px;
 }

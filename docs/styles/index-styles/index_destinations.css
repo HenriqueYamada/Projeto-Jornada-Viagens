@@ -1,4 +1,4 @@
-section#populary-destinations{
+section.popular-destinations{
     display: flex;
     flex-direction: column;
     align-items: center;

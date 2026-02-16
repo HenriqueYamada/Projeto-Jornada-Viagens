@@ -18,7 +18,8 @@ section#payment-conditions{
 
 .payment-conditions__container-text h3{
     color: var(--background-quaternary-color);
-    font-size: var(--title-h5-size);
+    font-weight: 100;
+    font-size: 5px;
 }
 
 .payment-conditions__container-text p{

@@ -10,7 +10,7 @@
     /*---OFFERS---*/
 
     .offers__list__cards-content__titles h3{
-        font-size: var(--subtitle-size);
+        font-size: var(--title-h5-size);
     }
 
     .offers__list__cards-content__titles span{
@@ -54,6 +54,8 @@
         font-size: var(--title-h4-size);
     }
 
+    
+
     /*---DEPOIMENTS---*/
 }
 
@@ -64,9 +66,10 @@
 
     .hero__img{
         background-image: url(../../images/Desktop/Homepage/Banner.png);
+        height: 620px;
     }
 
-    section#hero > p{
+    section.hero > p{
         font-size: var(--text-body4-size);
         line-height: 150%;
         margin: auto;
@@ -115,7 +118,7 @@
 
     /*---DESTINATIONS---*/
 
-    .section#populary-destinations{
+    section.popular-destinations{
         padding: 0 40px;
     }
 

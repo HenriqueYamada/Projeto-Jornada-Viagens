@@ -8,6 +8,7 @@ article{
     display: flex;
     flex-direction: column;
     gap: 32px;
+    margin-top: 64px;
 }
 
 .article-container,
