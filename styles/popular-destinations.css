@@ -23,8 +23,22 @@ section#populary-destinations{
     padding: 24px 16px;
 }
 
-.places img{
+.places__img{
+    background-image: url(../images/Mobile/Homepage/Tokyo.jpg);
+    background-repeat: no-repeat;
     border-radius: 16px;
+    height: 360px;
+    width: 312px;
+}
+
+#places__img-tokyo{
+    background-image: url(../images/Mobile/Homepage/Tokyo.jpg);
+    background-repeat: no-repeat;
+}
+
+#places__img-osaka{
+    background-image: url(../images/Mobile/Homepage/Osaka.jpg);
+    background-repeat: no-repeat;
 }
 
 .places h3{
