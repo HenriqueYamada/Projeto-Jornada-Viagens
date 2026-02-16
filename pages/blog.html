@@ -12,7 +12,29 @@
 </head>
 <body>
     <header>
+        <a href="index.html" title="Logo do site Jornada Viagens">
+            <img src="../images/@Header e rodapés/Símbolo_white.png" alt="Logo pequeno do site Jornada Viagens">
+            <img src="../images/@Header e rodapés/Logo-branco.png" alt="Logo grande do site Jornada Viagens">
+        </a>
 
+        <input type="checkbox" id="idMenu">
+        <label for="idMenu" aria-label="Ícone para abrir menu">
+            <img src="../images/Menus/Menu-open.svg" alt="Ícone para abrir menu">
+        </label>
+
+        <label for="idMenu" id="idOverlay" aria-label="Espaço fora do menu, usado para caso queira fechar o menu sem clicar diretamente no X (fechar menu)"></label>
+
+        <nav>
+            <label for="idMenu" aria-label="Ícone para fechar menu">
+                <img src="../images/Menus/Menu-close.svg" alt="Ícone para fechar menu">
+            </label>
+
+            <ul>
+                <li><a href="blog.html" title="Acesse o nosso blog">Blog</a></li>
+                <li><a href="pacotes.html" title="Acesse os nossos pacotes de viagem">Pacotes de viagem</a></li>
+                <li><a href="contato.html" title="Contate-nos">Contatos</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -20,7 +42,22 @@
     </main>
 
     <footer>
-
+        <div class="footer-container">
+            <div class="footer__content">
+                <img src="../images/@Header e rodapés/Logo-branco-com-tagline.png" alt="Logo da Jornada Viagens">
+                <p>Horário de atendimento: 08h - 20h (Segunda a Sábado)</p>
+                <p>Desenvolvido por <a href="https://github.com/HenriqueYamada" target="_blank">Henrique Yuji Yamada</a>. Imagens e Figma fornecidos pela <a href="https://www.alura.com.br/?c=awin_10EstudeAlurax" target="_blank">Alura</a>. Projeto fictício sem fins comerciais.</p>
+            </div>
+            
+            <div class="footer__media">
+                <span>Acesse nossas redes:</span>
+                <div class="footer__media__images">
+                    <img src="../images/@Header e rodapés/Whatsapp 1 (1).svg" alt="Imagem da logo do Whatsapp">
+                    <img src="../images/@Header e rodapés/Instragam 1 (1).svg" alt="Imagem da logo do Instagram">
+                    <img src="../images/@Header e rodapés/Twiter 1 (1).svg" alt="Imagem da logo do Twitter">
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
