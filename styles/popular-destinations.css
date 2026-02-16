@@ -20,13 +20,14 @@ section#populary-destinations{
     gap: 24px;
     background-color: var(--background-secondary-color);
     border-radius: 16px;
-    padding: 24px 16px;
+    padding: 32px 16px;
 }
 
 .places__img{
     border-radius: 16px;
     height: 360px;
     width: 312px;
+    max-width: 100%;
 }
 
 #places__img-tokyo{
@@ -47,14 +48,14 @@ section#populary-destinations{
     color: var(--background-quaternary-color);
     font-size: var(--text-body2-size);
     font-family: var(--text-font);
-    max-width: 900px;
+    max-width: 800px;
 }
 
 /*---Midia Queries---*/
 
 @media screen and (min-width: 768px) {
-    .populary-destinations__cards{
-        padding: 40px;
+    .section#populary-destinations{
+        padding: 0 40px;
     }
 
     .places__img{
@@ -70,5 +71,11 @@ section#populary-destinations{
     #places__img-osaka{
         background-image: url(../images/Tablet/Homepage/Osaka\ \(5\).jpg);
         background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .populary-destinations__cards{
+        flex-direction: row;
     }
 }
