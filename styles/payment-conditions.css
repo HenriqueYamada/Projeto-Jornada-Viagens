@@ -1,0 +1,39 @@
+section#payment-conditions{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.payment-conditions__content, 
+.payment-conditions__container-text
+{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.payment-conditions__container-text h3{
+    color: var(--background-quaternary-color);
+    font-size: var(--title-h4-size);
+}
+
+.payment-conditions__container-text p{
+    font-size: var(--text-body2-size);
+    line-height: 32px;
+}
+
+.payment-conditions__container-images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.payment-conditions__container-images img{
+    border-radius: 4px;
+}
+
+.payment-conditions__container-images .img1-img2{
+    display: flex;
+    gap: 24px;
+}
