@@ -2,6 +2,9 @@ section#payment-conditions{
     display: flex;
     flex-direction: column;
     gap: 32px;
+    margin: auto;
+    padding: 24px;
+    max-width: 1440px;
 }
 
 .payment-conditions__content, 
@@ -11,6 +14,7 @@ section#payment-conditions{
     flex-direction: column;
     gap: 24px;
 }
+
 
 .payment-conditions__container-text h3{
     color: var(--background-quaternary-color);
@@ -29,11 +33,32 @@ section#payment-conditions{
     gap: 24px;
 }
 
-.payment-conditions__container-images img{
-    border-radius: 4px;
+.img1-img2{
+    background-image: url(../images/Mobile/Homepage/Montagem\ mobile.png);
+    height: 460px;
+    max-width: 100%;
+    width: 312px;
 }
 
-.payment-conditions__container-images .img1-img2{
-    display: flex;
-    gap: 24px;
+/*---Media Queries---*/
+
+@media screen and (min-width: 768px) {
+    .img1-img2{
+        background-image: url(../images/Tablet/Homepage/Frame\ 5.png);
+        height: 460px;
+        width: 648px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .payment-conditions__content{
+        flex-direction: row;
+    }
+
+    .img1-img2{
+        background-image: url(../images/Desktop/Homepage/Frame\ 5\ \(3\).png);
+        height: 460px;
+        width: 790px;
+    }
 }
