@@ -24,8 +24,6 @@ section#populary-destinations{
 }
 
 .places__img{
-    background-image: url(../images/Mobile/Homepage/Tokyo.jpg);
-    background-repeat: no-repeat;
     border-radius: 16px;
     height: 360px;
     width: 312px;
@@ -49,4 +47,28 @@ section#populary-destinations{
     color: var(--background-quaternary-color);
     font-size: var(--text-body2-size);
     font-family: var(--text-font);
+    max-width: 900px;
+}
+
+/*---Midia Queries---*/
+
+@media screen and (min-width: 768px) {
+    .populary-destinations__cards{
+        padding: 40px;
+    }
+
+    .places__img{
+        height: 452px;
+        width: 648px;
+}
+
+    #places__img-tokyo{
+        background-image: url(../images/Tablet/Homepage/Tokyo\ \(5\).jpg);
+        background-repeat: no-repeat;
+    }
+
+    #places__img-osaka{
+        background-image: url(../images/Tablet/Homepage/Osaka\ \(5\).jpg);
+        background-repeat: no-repeat;
+    }
 }
