@@ -3,6 +3,8 @@
 @import url(header.css);
 @import url(footer.css);
 
+@import url();
+
 @import url(index-styles/index_hero.css);
 @import url(index-styles/index_offers.css);
 @import url(index-styles/index_categories.css);

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="shortcut icon" href="../images/@Header e rodapés/Símbolo_white.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/mq.css">
 
@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <a href="index.html" title="Logo do site Jornada Viagens">
+        <a href="../index.html" title="Logo do site Jornada Viagens">
             <img src="../images/@Header e rodapés/Símbolo_white.png" alt="Logo pequeno do site Jornada Viagens">
             <img src="../images/@Header e rodapés/Logo-branco.png" alt="Logo grande do site Jornada Viagens">
         </a>
@@ -39,10 +39,10 @@
 
     <main>
         <section id="hero">
-            <div class="hero__img" id="hero__img4">
-                <div class="hero__img4__position">
+            <div class="hero__img" id="hero__img3">
+                <div class="hero__img3__position">
                     <div class="title title-adjusts">
-                        <h1>Entre em contato!</h1>
+                        <h1>Conheça o Japão!</h1>
                         <div class="title__underline title__underline-adjusts"></div>
                     </div>
 
@@ -51,35 +51,55 @@
             </div>
         </section>
 
-        <section id="form">
+        <section id="destinations">
             <div class="title">
-                <h2>Preencha o formulário</h2>
+                <h2>Destinos de Excursão</h2>
                 <div class="title__underline"></div>
             </div>
 
-            <p>Temos uma equipe sempre em prontidão para resolver suas dúvidas, problemas, trazer dicas e orientações objetivas para tornar sua experiência o mais prazerosa e tranquila possível. Preencha seus dados que vamos retornar seu contato conforme a urgência do seu chamado. Pode confiar!</p>
+            <div class="populary-destinations__cards">
+                <div class="places">
+                    <div class="places__img" id="places__img-tokyo"></div>
+                    <h3>Tóquio</h3>
+                    <p>Tóquio é uma cidade vibrante e cosmopolita, com seus templos históricos, museus de arte moderna e arranha-céus icônicos. Não perca a chance de mergulhar em sua atmosfera fascinante.</p>
+                    <a href="#" class="btn-details" title="Botão para acessar as viagens ao Japão">Ver detalhes</a>
+                </div>
 
-            <div class="form-content">
-                <form action="#" method="get">
-                    <input type="text" name="userName" id="idName" placeholder="Seu nome" required>
-                    <input type="tel" name="userTel" id="idTel" placeholder="Telefone" required>
-                    <input type="email" name="userEmail" id="idEmail" placeholder="Email" required>
-                    <input type="text" name="userMatters" id="idMatters" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Assunto" required>
+                <div class="places">
+                    <div class="places__img" id="places__img-osaka"></div>
+                    <h3>Osaka</h3>
+                    <p>Osaka é uma cidade agitada e moderna no Japãos. A cidade é famosa por sua gastronomia deliciosa e por ser um excelente ponto de partida para explorar outras cidades japonesas próximas.</p>
+                    <a href="#" class="btn-details" title="Botão para acessar as viagens a Osaka">Ver detalhes</a>
+                </div>
+            </div>
+        </section>
 
-                    <div class="commentary-area">
-                        <label for="idMatters-textarea" aria-label="Um texto mostrando que a caixa a ser escrita é sobre os assuntos do formulaário">Assunto</label>
-                        <textarea name="userMatters-textarea" id="idMatters-textarea" cols="100%" rows="5"></textarea>
+        <section id="payment-conditions">
+            <div class="title">
+                <h2>Condições de Pagamento</h2>
+                <div class="title__underline"></div>
+            </div>
+
+            <div class="payment-conditions__content">
+                <div class="payment-conditions__container-text">
+                    <h3>R$4000</h3>
+                    <h4>Em até 12x!</h4>
+                    <p>Viaje pagando em até 12 parcelas no cartão, à vista no crédito com 5% de desconto ou no Pix com 10% de desconto! </p>
+                </div>
+
+                <div class="payment-conditions__container-images" id="packs-montage">
+                    <div class="payment_img1-img2">
+                        <img src="../images/Mobile/Destino/Montagem japão 1 (12).png" alt="Uma imagem ilustrativa do Japão">
+                        <img src="../images/Mobile/Destino/Montagem japão 2 (11).png" alt="Uma imagem ilustrativa do Japão">
+                        <img src="../images/Mobile/Destino/Montagem japão 3 (12).png" alt="Uma imagem ilustrativa do Japão">
                     </div>
-                </form>
-
-                <button class="btn-details" type="submit">Enviar!</button>
-                <button class="btn-details" type="reset">Apagar</button>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <div class="pre-footer" id="contact-pre-footer"></div>
+        <div class="pre-footer" id="packs-pre-footer"></div>
 
         <div class="footer-container">
             <div class="footer__content">
