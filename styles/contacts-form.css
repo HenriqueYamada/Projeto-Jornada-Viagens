@@ -41,6 +41,7 @@ form input{
     font-size: var(--text-body2-size);
     outline: 0;
     width: 100%;
+    transition: 200ms;
 }
 
 form input:focus{
