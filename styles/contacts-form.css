@@ -13,6 +13,7 @@ section#form h2{
 section#form p{
     font-size: var(--text-body1-size);
     line-height: 28px;
+    max-width: 1200px;
 }
 
 .form-content{
@@ -26,7 +27,7 @@ form{
     display: flex;
     flex-direction: column;
     gap: 64px;
-    padding: 0 60px;
+    padding: 0 24px;
     width: 100%;
 }
 
