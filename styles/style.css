@@ -19,3 +19,7 @@ main{
     flex-direction: column;
     gap: 88px;
 }
+
+section{
+    padding: 0 24px;
+}
