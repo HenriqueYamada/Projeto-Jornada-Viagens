@@ -45,9 +45,35 @@
                         <h1>Entre em contato!</h1>
                         <div class="title__underline title__underline-adjusts"></div>
                     </div>
-                    
+
                     <p>Dúvidas, sugestões, problemas para resolver? Temos uma equipe de plantão para ajudar você!</p>
                 </div>
+            </div>
+        </section>
+
+        <section id="form">
+            <div class="title">
+                <h2>Preencha o formulário</h2>
+                <div class="title__underline"></div>
+            </div>
+
+            <p>Temos uma equipe sempre em prontidão para resolver suas dúvidas, problemas, trazer dicas e orientações objetivas para tornar sua experiência o mais prazerosa e tranquila possível. Preencha seus dados que vamos retornar seu contato conforme a urgência do seu chamado. Pode confiar!</p>
+
+            <div class="form-content">
+                <form action="#" method="get">
+                    <input type="text" name="userName" id="idName" placeholder="Seu nome" required>
+                    <input type="tel" name="userTel" id="idTel" placeholder="Telefone" required>
+                    <input type="email" name="userEmail" id="idEmail" placeholder="Email" required>
+                    <input type="text" name="userMatters" id="idMatters" placeholder="Assunto" required>
+
+                    <div class="commentary-area">
+                        <label for="idMatters-textarea" aria-label="Um texto mostrando que a caixa a ser escrita é sobre os assuntos do formulaário">Assunto</label>
+                        <textarea name="userMatters-textarea" id="idMatters-textarea" cols="100%" rows="5"></textarea>
+                    </div>
+                </form>
+
+                <button class="btn-details" type="submit">Enviar!</button>
+                <button class="btn-details" type="reset">Apagar</button>
             </div>
         </section>
     </main>
