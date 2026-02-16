@@ -115,6 +115,7 @@ section#offers h2{
     font-size: var(--text-body2-size);
     font-weight: bold;
     text-decoration: none;
+    border: 0;
     border-radius: 8px;
     padding: 16px;
     max-width: 280px;
