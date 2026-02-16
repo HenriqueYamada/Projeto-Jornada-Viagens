@@ -1,4 +1,6 @@
 footer,
+#positioning-container,
+.footer-container,
 .footer__content,
 .footer__media
 {
@@ -7,21 +9,33 @@ footer,
 }
 
 footer{
-    gap: 32px;
-    background-color: var(--background-tertiary-color);
     color: var(--text-primary-color);
     text-align: center;
     line-height: 28px;
     margin-top: 100px;
-    padding: 32px 24px;
-    height: max-content;
     width: 100%;
+}
+
+.pre-footer{
+    background-image: url(../images/Desktop/Homepage/Imagem\ pré\ rodapé\ 1\ \(4\).png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: auto;
+    height: 400px;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.footer-container{
+    background-color: var(--background-tertiary-color);
 }
 
 .footer__content{
     gap: 16px;
     text-align: center;
     font-size: var(--text-body1-size);
+    padding: 32px 24px;
+    max-width: 1440px;
 }
 
 .footer__content img{
@@ -61,12 +75,9 @@ footer p{
 /*---Media Queries---*/
 
 @media screen and (min-width: 768px) {
-    footer{
-        padding: 32px 60px;
-    }
-
     .footer__content{
         font-size: var(--text-body2-size);
+        padding: 32px 60px;
     }
 
     .footer__media__images img{
@@ -75,18 +86,20 @@ footer p{
 }
 
 @media screen and (min-width: 1440px) {
-    footer{
-        flex-flow: row nowrap;
+    .pre-footer{
+        border-radius: 16px 16px 0 0;
+    }
+
+    .footer-container{
+        flex-direction: row;
         justify-content: space-between;
         align-items: center;
         padding: 32px 120px;
     }
 
-    
-
     .footer__content{
         text-align: start;
-        width: 591px;
+        width: 800px;
     }
 
     .footer__content img{

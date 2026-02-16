@@ -44,14 +44,13 @@ section#payment-conditions{
 
 @media screen and (min-width: 768px) {
     .img1-img2{
-        background-image: url(../images/Tablet/Homepage/Frame\ 5.png);
+        background-image: url(../images/Tablet/Homepage/Frame\ 5\ \(5\).png);
         height: 460px;
         width: 648px;
     }
 }
 
 @media screen and (min-width: 1440px) {
-
     .payment-conditions__content{
         flex-direction: row;
     }
