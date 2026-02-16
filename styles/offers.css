@@ -104,7 +104,7 @@ section#offers h2{
     font-weight: var(--title-weight);
 }
 
-.offers__list__cards-content__button{
+.btn-details{
     background-color: var(--color-primary);
     color: var(--text-primary-color);
     text-align: center;
@@ -118,7 +118,7 @@ section#offers h2{
     transition: 150ms;
 }
 
-.offers__list__cards-content__button:hover{
+.btn-details:hover{
     background-color: var(--color-secondary);
 }
 
