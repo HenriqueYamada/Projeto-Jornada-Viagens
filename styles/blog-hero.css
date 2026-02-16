@@ -1,0 +1,36 @@
+#hero__img2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../images/Mobile/Blogpost/Banner\ blogpost.png);
+    padding: 32px 24px;
+    height: 460px;
+}
+
+.hero__img2__position{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.title-adjusts{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+}
+
+#hero__img2 h1,
+#hero__img2 p
+{
+    color: var(--text-primary-color);
+}
+
+#hero__img2 h1{
+    font-size: var(--title-h2-size);
+}
+
+#hero__img2 p{
+    font-size: var(--text-body1-size);
+    line-height: 32px;
+}
