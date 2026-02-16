@@ -120,6 +120,7 @@ section#offers h2{
     padding: 16px;
     max-width: 280px;
     width: 100%;
+    cursor: pointer;
     transition: 150ms;
 }
 
@@ -133,8 +134,6 @@ section#offers h2{
     .offers__list__cards-content__titles h3{
         font-size: var(--subtitle-size);
     }
-
-
 
     .offers__list__cards-content__titles span{
         color: var(--text-primary-color);
