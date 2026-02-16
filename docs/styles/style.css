@@ -51,8 +51,3 @@ p{
     font-family: var(--text-font);
 }
 
-@media screen and (orientation: landscape) {
-    header{
-        padding: 18px 24px;
-    }
-}

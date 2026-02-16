@@ -75,6 +75,13 @@ header nav ul a:hover{
 
 /*---Media-Queries---*/
 
+@media screen and (orientation: landscape) {
+    header{
+        padding: 16px 24px;
+        height: max-content;
+    }
+}
+
 @media screen and (min-width: 0) {
     #idMenu:checked ~ nav{
         right: 0;
