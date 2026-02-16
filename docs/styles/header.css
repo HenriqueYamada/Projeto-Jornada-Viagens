@@ -4,8 +4,8 @@ header{
     align-items: center;
     position: fixed;
     top: 0;
-    padding: 36px 48px;
-    height: 138px;
+    padding: 18px 24px;
+    height: 100px;
     width: 100%;
     background-color: var(--background-tertiary-color);
     z-index: 10;
@@ -75,10 +75,9 @@ header nav ul a:hover{
 
 /*---Media-Queries---*/
 
-@media screen and (orientation: landscape) {
+@media screen and (min-height: 700px) {
     header{
-        padding: 16px 24px;
-        height: max-content;
+        height: 138px;
     }
 }
 
@@ -95,6 +94,12 @@ header nav ul a:hover{
         height: 100vh;
         width: 100vw;
         z-index: 9;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    header{
+        padding: 0 48px;
     }
 }
 
