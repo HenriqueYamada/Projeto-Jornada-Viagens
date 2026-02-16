@@ -9,6 +9,9 @@
 @import url(depoiments.css);
 @import url(footer.css);
 
+@import url(contacts-hero.css);
+@import url(contacts-footer.css);
+
 body{
     display: flex;
     flex-direction: column;
