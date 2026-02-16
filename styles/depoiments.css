@@ -29,6 +29,11 @@
     width: 100%;
 }
 
+.avaliation{
+    display: flex;
+    flex-direction: column;
+}
+
 /*---Media Queries---*/
 
 @media screen and (min-width: 1440px) {

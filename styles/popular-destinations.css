@@ -4,6 +4,7 @@ section#populary-destinations{
     align-items: center;
     gap: 32px;
     padding: 0 24px;
+    width: 100%;
 }
 
 .populary-destinations__cards{
@@ -11,6 +12,7 @@ section#populary-destinations{
     flex-direction: column;
     align-items: center;
     gap: 40px;
+    width: 100%;
 }
 
 .places{
@@ -19,15 +21,17 @@ section#populary-destinations{
     align-items: center;
     gap: 24px;
     background-color: var(--background-secondary-color);
+    background-position: center center;
     border-radius: 16px;
     padding: 32px 16px;
+    width: 100%;
 }
 
 .places__img{
     border-radius: 16px;
     height: 360px;
-    width: 312px;
     max-width: 100%;
+    width: 312px;
 }
 
 #places__img-tokyo{

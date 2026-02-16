@@ -37,7 +37,8 @@ section#offers h2{
 #offers__japan-card,
 #offers__san-andreas-card,
 #offers__paraiba-card,
-#offers__manaus-card{
+#offers__manaus-card
+{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,18 +93,18 @@ section#offers h2{
 
 .offers__list__cards-content__titles span{
     color: var(--text-primary-color);
-    font-size: var(--text-body2-size);
+    font-size: var(--text-body1-size);
 }
 
 .offers__list__cards-content__titles h3{
     color: var(--text-primary-color);
-    font-size: var(--title-h2-size);
+    font-size: var(--title-h5-size);
     font-weight: var(--title-weight);
 }
 
 .offers__list__cards-content_price{
     color: var(--text-primary-color);
-    font-size: var(--title-h3-size);
+    font-size: var(--title-h5-size);
     font-weight: var(--title-weight);
 }
 
@@ -126,6 +127,31 @@ section#offers h2{
 }
 
 /*---Media Queries---*/
+
+@media screen and (min-width: 360px) {
+    .offers__list__cards-content__titles h3{
+        font-size: var(--subtitle-size);
+    }
+
+
+
+    .offers__list__cards-content__titles span{
+        color: var(--text-primary-color);
+        font-size: var(--text-body2-size);
+    }
+
+    .offers__list__cards-content__titles h3{
+        color: var(--text-primary-color);
+        font-size: var(--title-h4-size);
+        font-weight: var(--title-weight);
+    }
+
+    .offers__list__cards-content_price{
+        color: var(--text-primary-color);
+        font-size: var(--title-h4-size);
+        font-weight: var(--title-weight);
+    }
+}
 
 @media screen and (min-width: 768px) {
     section#offers{

@@ -30,14 +30,24 @@ section#categories{
 
 .categories__list__cards-content{
     color: var(--background-quaternary-color);
-    font-size: var(--title-h4-size);
+    font-size: var(--subtitle-size);
 }
 
 /*---Media Queries*/
+@media screen and (min-width: 360px) {
+    .categories__list__cards-content{
+        font-size: var(--title-h5-size);
+    }
+}
 
 @media screen and (min-width: 768px) {
     .categories__list__cards{
         grid-template-columns: repeat(2, 1fr);
+        font-size: var(--title-h4-size);
+    }
+
+    .categories__list__cards-content{
+        font-size: var(--title-h4-size);
     }
 }
 
