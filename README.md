@@ -11,10 +11,6 @@
   <img src="https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge" alt="Status: Concluído"/>
 </p>
 
-<p align="center">
-  <a href="https://henriqueyamada.github.io/Projeto-Jornada-Viagens/"><strong>🔗 Ver projeto online</strong></a>
-</p>
-
 ---
 
 ## Demonstração
