@@ -17,7 +17,7 @@
 
 <p align="center">
   <img 
-    src="./imagens/jornada-viagens.jpeg" 
+    src="./docs/jornada-viagens.jpeg" 
     alt="Página inicial do projeto Jornada Viagens"
     width="720"
   />
