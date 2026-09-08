@@ -1,81 +1,121 @@
-# Jornada Viagens
+<h1 align="center">Jornada Viagens</h1>
 
-Projeto desenvolvido como prática de desenvolvimento front-end a partir de um layout disponibilizado em **Figma**, com o objetivo de replicar fielmente a interface proposta utilizando **HTML e CSS**.
+<p align="center">
+  Projeto de estudo em Front-End desenvolvido durante um curso da <strong>Alura</strong>, com foco na conversão de um layout do <strong>Figma</strong> em uma interface responsiva utilizando HTML e CSS.
+</p>
 
-O projeto simula o site de uma empresa de turismo chamada **Jornada Viagens**, apresentando diferentes destinos, informações sobre viagens e um layout moderno voltado para a experiência do usuário.
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"/>
+  <img src="https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge" alt="Status: Concluído"/>
+</p>
+
+<p align="center">
+  <a href="https://henriqueyamada.github.io/Projeto-Jornada-Viagens/"><strong>🔗 Ver projeto online</strong></a>
+</p>
+
+---
+
+## Demonstração
+
+<p align="center">
+  <img 
+    src="./imagens/jornada-viagens.jpeg" 
+    alt="Página inicial do projeto Jornada Viagens"
+    width="720"
+  />
+</p>
+
+<p align="center">
+  Interface limpa e moderna, com destaque para imagens de destinos, navegação simplificada e uma estrutura pensada para apresentar informações de viagem de forma clara e agradável.
+</p>
+
+---
+
+## Índice
+
+- Sobre o projeto
+- Tecnologias utilizadas
+- Funcionalidades e seções
+- Como executar localmente
+- O que esse projeto me ensinou
+- Período de desenvolvimento
+- Autor
 
 ---
 
 ## Sobre o projeto
 
-Este projeto foi desenvolvido durante um curso da Alura, onde foi disponibilizado um layout pronto no Figma para que os alunos pudessem transformá-lo em um site funcional.
+O **Jornada Viagens** simula o site de uma empresa de turismo, reunindo informações sobre destinos, pacotes de viagem, conteúdos informativos e serviços em uma interface moderna e organizada.
 
-O principal objetivo foi praticar a conversão de **design para código**, trabalhando aspectos importantes do desenvolvimento front-end como estruturação semântica do HTML, organização de estilos em CSS e construção de layouts responsivos.
+O projeto foi desenvolvido a partir de um layout disponibilizado no **Figma**, durante um curso da Alura. A proposta principal era transformar o design em código, buscando manter fidelidade visual à referência original e adaptar a interface para diferentes tamanhos de tela.
 
-Durante o desenvolvimento, o Figma foi utilizado como guia para replicar o design proposto, respeitando a estrutura visual, os espaçamentos e a organização dos elementos.
-
----
-
-## 🖼️ Demonstração
-
-*(Adicione aqui imagens ou GIFs do projeto)*
+Durante o desenvolvimento, trabalhei aspectos importantes do Front-End, como organização de seções, espaçamentos, hierarquia visual, responsividade e estruturação de componentes.
 
 ---
 
 ## Tecnologias utilizadas
 
-- HTML5  
-- CSS3  
-- Flexbox  
-- CSS Grid (uso pontual)  
-- Media Queries  
+| Tecnologia | Aplicação no projeto |
+|---|---|
+| **HTML5** | Estruturação das páginas e seções |
+| **CSS3** | Estilização geral da interface |
+| **Flexbox** | Organização de seções e componentes |
+| **CSS Grid** | Utilização pontual em layouts específicos |
+| **Media Queries** | Adaptação da interface para diferentes tamanhos de tela |
+| **Figma** | Referência de layout, espaçamentos e organização visual |
 
 ---
 
-## Funcionalidades
+## Funcionalidades e seções
 
-- Layout totalmente responsivo
-- Menu de navegação adaptado para diferentes tamanhos de tela
-- Estrutura com múltiplas seções informativas
+A página foi construída com múltiplas áreas voltadas à apresentação dos conteúdos da empresa:
+
+- Destinos e experiências
+- Pacotes de viagem
+- Conteúdos informativos
+- Menu de navegação
 - Formulário de contato
-- Componentes visuais organizados com Flexbox
-- Estrutura HTML semântica
-- Interatividade simples utilizando CSS
+- Layout responsivo
+- Organização visual de seções e componentes
 
 ---
 
-## O que eu aprendi
+## Como executar localmente
 
-Durante o desenvolvimento deste projeto, aprofundei conhecimentos importantes como:
+Por ser um projeto desenvolvido com HTML e CSS puros, não há dependências adicionais para instalar.
 
-- Conversão de **design do Figma para código**
-- Construção de layouts responsivos utilizando **media queries**
-- Organização e estruturação de **HTML semântico**
-- Uso de **Flexbox** para organização de seções e componentes
-- Estruturação de **formulários em HTML**
-- Organização de código **CSS em projetos maiores**
+```bash
+# Clone o repositório
+git clone https://github.com/henriqueyamada/Projeto-Jornada-Viagens.git
 
----
+# Acesse a pasta do projeto
+cd Projeto-Jornada-Viagens
 
-## Tempo de desenvolvimento
+# Abra o arquivo index.html no navegador
 
-O projeto foi desenvolvido ao longo de **aproximadamente quatro dias**, dedicando cerca de **10 horas por dia** para implementação e ajustes do layout.
+````
 
 ---
 
-## Desafios enfrentados
+## O que esse projeto me ensinou
 
-O principal desafio foi garantir a **responsividade do site**, já que o projeto possui diversas seções e elementos visuais.
+Esse projeto foi importante para aprofundar minha compreensão sobre a relação entre design e desenvolvimento Front-End.
 
-Foi necessário ajustar cuidadosamente os layouts utilizando **media queries**, além de organizar o código de forma clara para manter a estrutura do projeto compreensível mesmo com a quantidade de componentes presentes na página.
+Um dos principais desafios foi transformar um layout visual já definido no **Figma** em código, respeitando aspectos como **espaçamento, alinhamento, proporções e hierarquia dos elementos**. Isso exigiu mais atenção aos detalhes e maior cuidado com a fidelidade visual da interface.
 
-Outro desafio importante foi utilizar o **Figma como referência de layout**, garantindo que o design final ficasse o mais próximo possível da proposta original.
+A responsividade também foi um ponto importante. Como o projeto possui diversas seções e componentes, foi necessário utilizar **Media Queries** e reorganizar elementos para manter uma boa experiência em diferentes tamanhos de tela.
+
+Durante esse processo, também aprofundei meus conhecimentos em **Flexbox, estruturação de formulários e organização de CSS**, além de desenvolver maior familiaridade com o fluxo de trabalho entre **Figma e código**.
 
 ---
 
-## Acesse o projeto
+## Período de desenvolvimento
 
-- **Repositório:** (adicione o link)  
+O projeto foi desenvolvido ao longo de aproximadamente **quatro dias**, durante meus estudos de Front-End na Alura.
+
+Nesse período, o foco esteve na implementação da interface, nos ajustes de responsividade e na aproximação visual com o layout disponibilizado no Figma.
 
 ---
 
@@ -83,4 +123,4 @@ Outro desafio importante foi utilizar o **Figma como referência de layout**, ga
 
 Desenvolvido por **Henrique Yuji Yamada**
 
-Professor de inglês e estudante de desenvolvimento front-end, com foco em **HTML, CSS e JavaScript**.
+Você pode acessar o projeto em: https://henriqueyamada.github.io/Projeto-Jornada-Viagens/
